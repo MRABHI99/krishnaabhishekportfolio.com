@@ -1,0 +1,299 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/*top*/
+.top{
+    height:40px;
+    background-color:gray;
+    font-size:20px;
+    color: aliceblue;
+}
+.left{
+    padding-top: 5px;
+    padding-left: 10px;
+    float:left
+}
+.right{
+    padding-top: 5px;
+    padding-right: 10px;
+    float:right
+}
+
+/* Header */
+.header {
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Logo */
+.logo {
+    padding-left: 30px;
+    padding-top: 30px;
+    height: 90px;
+    width: 89px;
+}
+
+/* Title */
+.h5 {
+    color: green;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+/* Login button container */
+.hpart3 {
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+/* Button styling */
+.login {
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.login:hover {
+    background-color: red;
+}
+
+
+
+/* Navigation bar */
+.menubar {
+    background-color: grey;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+
+.menubar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start; 
+}
+
+
+.menubar ul li {
+    margin: 0 10px;
+}
+
+
+.menubar ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-family: "Arial", sans-serif;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+
+.menubar ul li a:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
+
+
+
+/*body*/
+.bodypart{
+    height:1000px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    color:aliceblue;
+}
+.sectitle{
+	   text-align:center;
+	   color:red;
+	   font-family:'calibri';
+}
+
+.courses{
+		width:80%;
+		margin:0 auto auto;
+	}
+.coursediv{
+		width:20%;
+		height:270px;
+		border:1px solid red;
+		border-radius:10px;
+		box-shadow:3px 6px red;
+		float:left;
+		margin:3% 2%;
+	  }
+
+.coursediv img{
+		width:375px;
+        height: 200px;
+		border-radius:10px
+}
+.coursediv a{
+		text-decoration:none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		color:black;
+		font-size:25px;
+		padding-left:50px;
+		padding-right:20px;
+}
+.secsection{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red;
+
+}
+.success img {
+    width: 400px;
+    height: 600px;
+    margin-left: 10px;
+}
+
+.about{
+    font-size: 20px; 
+    text-align: center;
+}
+.h1{
+    text-shadow: blue;
+}
+
+
+
+/*foot*/
+.footer{
+    height:400px;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    color:aliceblue;
+    padding: 30px;
+}
+.part20{
+    padding-left: 30px;
+    width:20%;
+    float: left;
+    
+}
+.part20 a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-bottom: 100px;
+}
+.part40{
+    padding-left: 200px;
+    width: 40%;
+    float: left;
+}
+.head{
+    font-size: 35px;
+    color: yellow;
+}
+
+.footerform{
+    height:30px;
+    width:500px;
+}
+.btn{
+    background-color:gray ;
+    color: white;
+}
+
+
+
+
+/* Centering the login form */
+.loginform {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Labels for input fields */
+h5 {
+    margin: 10px 0 5px;
+    color: #333;
+    text-align: left;
+}
+
+/* Input fields */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Submit button */
+.submit input[type="submit"] {
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+
+.submit input[type="submit"]:hover {
+    background-color: darkgreen;
+}
+
+/* Error message styling */
+#err {
+    color: red;
+    margin-top: 10px;
+}
+
+
+
+
+
+/*enroll courses*/
+
+.coursediv img {
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.enroll {
+    background-color: green;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.enroll:hover {
+    background-color: darkgreen;
+}
+
+

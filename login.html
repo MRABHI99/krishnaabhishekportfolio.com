@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>mini project</title>
+    <script>
+            function check()
+            {
+                var uname=document.getElementById("uname").value;
+                var pwd=document.getElementById("pwd").value;
+
+                if(uname=='nicecomputers'&& pwd=="nice123")
+              {
+                document.getElementById("form1").action="home".action="home.html";
+              }
+              else{
+                document.getElementById("err").innerHTML="USERNAME AND PASSWORD IS INCORRECT";
+                return false;
+             }
+            }
+
+    </script>
+</head>
+
+
+<body>
+    
+    <div class="top">
+        <div class="left">nicecomputers3321@gamil.com</div>
+        <div class="right">insta id:nicecomputer</div>
+    </div>
+
+    
+    <div class="header">
+        <img class="logo" src="./imgs/logo.jpg">
+        <div class="h5"><b>NICE COMPUTERS</b></div>
+    </div>
+
+
+    <div class="menubar">
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">home</a></li>
+                <li><a href="#about" class="active">About</a></li>
+                <li><a href="#courses" class="active">Courses available </a></li>
+                <li><a href="#success milestone" class="active">Success Milestone</a></li>
+            </ul>
+        </nav>
+    </div>
+
+  
+    <div class="loginform">
+        <h1 class="secsection">login form</h1>
+        <form id="form1" name="form1" class="loginform" onsubmit="return check()">
+            <h5>Username:</h5>  
+            <input type="text" id="uname" name="uname" required /><br><br>
+
+            <h5>Password:</h5>
+            <input type="password" id="pwd" name="pwd" required /><br><br>
+            <div class="submit">
+            <input type="submit" value="Login">
+        </div>
+        </form><br>
+
+        <div id="err"></div>  
+    </div>
+    
+    <br><br>    
+    <hr>        
+    <br><br><br><br>       
+       
+
+    <div id="success milestone"></div>
+    <h1 class="secsection">success milestone</h1>
+    <br><br><br><br>
+    <div>
+        <marquee class="success">
+            <img src="/imgs/mile stone.jpg">
+            <img src="/imgs/mile stone.jpg">
+            <img src="/imgs/mile stone.jpg">
+            <img src="/imgs/mile stone.jpg">
+            <img src="/imgs/mile stone.jpg">
+            <img src="/imgs/mile stone.jpg">
+            <img src="/imgs/mile stone.jpg">
+            <img src="/imgs/mile stone.jpg">
+        </marquee>
+    </div>
+    <br><br><br><br>
+    <hr>
+     
+
+    <div class="about">
+    <h1 class="secsection">about us</h1><br><br>
+    <div class="about">
+    NICE COMPUTERS is an institute was established on 23rd March 2010<br>
+    Which is directed by: Thopula Naga Naresh<br>
+    It i an ISO-Certified institute.'<br>
+    <h1>Courses offered are:</h1><br>
+    Pacakges: MS office, DTP Accounts, Photoshop<br>
+    Languages: C, C+, C++java, python, net<br>
+    Databases: Oracle, mysql, Ms-sql.sql server, dbase, sybase, dbl<br>
+    Web designing Courses html, css, java script, bootstrap, dom, jquery<br>
+    Frame works:spring and hybernet, django<br>
+    Civil courses; AUTOCAD, STADPRO, PROVIEW<br>
+    email:naganareshthopula@gmail.com<br>
+    Phone:9705945020
+    </div>
+    <br><br><br><br>
+    <hr>
+   </div>
+    
+
+
+    <div class="footer">
+        <div class="part20">
+            <h1 class="head">youtube channel links</h1>
+            <a href="#">programing basics</a><br>
+            <a href="#">c-language</a><br>
+            <a href="#">java</a><br>
+            <a href="#">python</a><br>
+            <a href="#">html</a><br>
+            <a href="#">javascript</a><br>
+
+
+        </div>
+        <div class="part20">
+            <h1 class="head">social media links</h1>
+            <a href="#">facebook</a><br>
+            <a href="#">linkedin</a><br>
+            <a href="#">twitter</a><br>
+            <a href="#">instagram</a><br>
+            <a href="#">telegram</a><br>
+        </div>
+        
+        <div class="part40">
+            <h1 class="head" >submit your request here</h1>
+
+             <form>
+                email<br>
+                <input type="email" class="footerform"><br>
+                request<br>
+                <textarea rows="14" cols="65"> </textarea>
+                <input type="submit" value="submit" class="footerform btn">
+             </form>
+        </div>
+    </div>
+
+
+</body>
+</html>
